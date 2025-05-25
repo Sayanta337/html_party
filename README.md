@@ -1,5 +1,6 @@
 # html_party
-## Welcome to the ultimate tag fest.<br>
-- **This is not just a project — it’s a full-blown HTML Party where every element is invited!**<br>
-- **html_party is my playground where I showcase everything I know about HTML.**<br>
+## A article on "The Science Behind Solar Eclipse"<br>
+- **This is a simple HTML-only project that explains the science behind a solar eclipse.
+No CSS, no JavaScript—just pure HTML**<br>
+- Check this out, if you want to...
 - PEACE ✌🏻🕊️
