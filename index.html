@@ -30,6 +30,7 @@
             <li><a href="#5th">Why Should You Care?</a></li>
             <li><a href="#6th">In Summary</a></li>
             <li><a href="#7th">Video tutorial</a></li>
+            <li><a href="#8th">Your Feedback</a></li>
           </ul>
         </nav>
       </section>
@@ -91,10 +92,47 @@
       <br>
       <section id="7th">
         <h3>📽️ Watch this video for more clarity :</h3>
-        <iframe width="900" height="506" src="https://www.youtube-nocookie.com/embed/cxrLRbkOwKs?rel=0&modestbranding=1" frameborder="1" allowfullscreen>
+        <iframe width="900" height="506" src="https://www.youtube-nocookie.com/embed/cxrLRbkOwKs?rel=0&modestbranding=1" allowfullscreen>
         </iframe>
       </section>
       <br>
+      <section id="8th">
+        <h3>💬 I'd Love Your Feedback!</h3>
+        <p>(BTW this website is not connected to a backend server, so the submit button will not work 😅)
+        </p>
+        <form action="/submit.php" method="post">
+          <ul>
+           <li>
+            <label for="name">Your Name :</label>
+            <input id="name" type="text" name="Username" placeholder="like 👉 Jack" required>
+          </li>
+           <li>
+            <label for="email">Email :</label>
+            <input id="email" type="email" name="email" placeholder="like 👉 xyz123@email.com" required>
+          </li>
+           <li>
+            <span>Rating for this website :</span>
+            <input type="radio" id="1star" name="Rating" value="1star">
+            <label for="1star">1⭐</label>
+            <input type="radio" id="2star" name="Rating" value="2star">
+            <label for="2star">2⭐</label>
+            <input type="radio" id="3star" name="Rating" value="3star">
+            <label for="3star">3⭐</label>
+            <input type="radio" id="4star" name="Rating" value="4star">
+            <label for="4star">4⭐</label>
+            <input type="radio" id="5star" name="Rating" value="5star">
+            <label for="5star">5🌟</label>
+          </li>
+           <li><label for=""></label><input type=""></li>
+           <li><label for=""></label><input type="text"></li>
+           <li><label for=""></label><input type="text"></li>
+           <li><label for=""></label><input type="text"></li>
+           <li><label for=""></label><input type="text"></li>
+           <li><label for=""></label><input type="text"></li>
+           <li><label for=""></label><input type="text"></li>
+          </ul>
+        </form>
+      </section>
     </main>
   </body>
 </html>
