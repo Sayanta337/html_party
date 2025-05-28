@@ -123,13 +123,51 @@
             <input type="radio" id="5star" name="Rating" value="5star">
             <label for="5star">5🌟</label>
           </li>
-           <li><label for=""></label><input type=""></li>
-           <li><label for=""></label><input type="text"></li>
-           <li><label for=""></label><input type="text"></li>
-           <li><label for=""></label><input type="text"></li>
-           <li><label for=""></label><input type="text"></li>
-           <li><label for=""></label><input type="text"></li>
-           <li><label for=""></label><input type="text"></li>
+           <li>
+            <label for="country">Where are you from? :</label>
+            <select name="country" id="country">
+                <option value="" hidden selected>Select your country 👇</option>
+                <option value="us">United States</option>
+                <option value="india">India</option>
+                <option value="uk">United Kingdom</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+                <option value="germany">Germany</option>
+                <option value="france">France</option>
+                <option value="brazil">Brazil</option>
+                <option value="japan">Japan</option>
+                <option value="china">China</option>
+                <option disabled>🌍 Others (more countries coming soon with searchable feature)</option>
+            </select>
+          </li>
+           <li>
+            <label for="birthday">When is your birthday? :</label>
+            <input type="date" id="birthday" name="birthday">
+          </li>
+           <li>
+            <label for="pic">Do you have any pic to share? :</label>
+            <input type="file" id="pic" name="pic" accept=".jpg, .jpeg, .png">
+          </li>
+           <li>
+            <label for="fav_color">What's your favorite color? :</label>
+            <input type="color" id="fav_color" name="fav_color">
+          </li>
+           <li>
+            <label for="number">Choose a number :</label>
+            <input type="range" id="number" name="number" min="0" max="10">
+          </li>
+           <li>
+            <span>What do you want? :</span>
+            <input type="checkbox" id="icecream" name="icecream">
+            <label for="icecream">Ice cream</label>
+            <input type="checkbox" id="money" name="money">
+            <label for="money">Money</label>
+            <input type="checkbox" id="both" name="both">
+            <label for="both">Both</label>
+          </li>
+           <li>
+            <textarea name="textarea" rows="10" cols="5" placeholder="Anything else you'd like to say or ask?"></textarea>
+          </li>
           </ul>
         </form>
       </section>
